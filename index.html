@@ -1,0 +1,202 @@
+<!-- written by Bella Ryan @Bella-Ryan-980, version 1.0 November 2020 -->
+<!-- Portfolio template from bedimcode, Youtube: <https://www.youtube.com/watch?v=AKNvTxWOdKw>, Github: <https://github.com/bedimcode/portfolio-responsive-complete> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- Boxicon - 'High Quality Web Icons Set' <https://boxicons.com/> -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Bella Ryan</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Bella</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!-- Home -->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'm <span class="home__title-color">Bella</span><br> Student & <br>Aspiring Coder</h1>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/bella-ryan-845b71192/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Bella-Ryan-980" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="#https://twitter.com/bella_ryan_980" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/perfil.png" alt="">
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hi! I'm Bella,</h2>
+                        <p class="about__text">Fulltime high school student by day looking to graduate in 2021 and an aspiring coder by night (not really, I code all the time but it’s a pretty cool line right?). Through the support of teachers and the IT community I have been lucky enough to find a true passion in coding and all things problem solving which I hope to share with you on here. My interests lie in cybersecurity, data science and all things related to NESA’s SDD syllabus.</p>
+                        
+                        <p class="about__text about_contact_line"><br>If you have any projects suggestions, general advice or questions feel free to drop a line below.</p>
+                        <a href="#contact" class="button">Contact</a>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Skills in Development</h2>
+                        <p class="skills__text">My primary coding language is Python 3 where I have undertaken 99% of my projects both in and out of school. Other attempts at coding include C+, JavaScript and Arduino (C/C++) but we don’t talk about any of those. </p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAD1UlEQVRoQ81Yi3HUMBRcVUA6IFQAHSSpgFABUAFJBUAFQAVAB6QCkgoIFRA6SCowsz7Jo7PfTzrfBc/cODlLz7vvs+/pUsLmGvL9sW7EMccgfTfHV/DvFXcBEgEkAbH2dRHwgHjP1/BW7RTXngboEEA9cF0R8MLsEfOee6D5vCkCmsE1gNRgIsBXLeIZgXMAJwBeADjK9/K+ewC3AHi/BnAF4K5XeWoS4RSav6z6/xTAVwDHjR78BuAyk3K3WnXobjYWEPzP/Pxvvj9tMMionFkkvDQNR0AB9QPASwA3AEiGV/kuyoNR+BxdvGoN5Hxm3n8E8CEb5/29B6jybE3e27Z4vmsEWJAkwOJ8A4BpxHpgIW9dRipMBLx00eS7mXW1oRDospEB/xcRmAh0ePFRCUQ87w26+yNQeZM5/VrKbS0vK9SjOpViK9/PipiFX+SYy+8AsE988fpEpIgpce8iru5cwwjMCRRTiz4hNVQrfy8AfOoEFtqWgJtBJ0Ab37PCiapmRYDzzJ8810TB9JzsrAiU9z7LaTVNoeWBRYC6Tk13L0t5AqrEPGf3rmtg7u3LQenWFgEWEQt3cQVAuaSrBW+zd1UCeXrltLtII4sAC+h5C5KOtb+zsnlCoUqtRcDT7w68W1tYnBSJowT8GjZnCOsSsa5B4CHnMLV7UWQCIo4fXMtP6CyRU3YvBJgCBMFhjncOdpGLhx82x8XQZ2weCZh9YLbZTKEEPAybUxg/4wRqnNom050CwCiLKaaGZdicXS2P8gzA4lN7hXUMjP4K502sYRkVwPAoyBQIdeoWMkIaid24pJSYdgm4GGxwJMBmJ/aKSCFE1mTi7BXsS4tLLIy8ijlHpXiivIgEOIRFC9fVSKXoeMo7riO49bdTVGqDScBZHsJWIWCwe5VlWssUeWtFTBspmiOgeVEBT+VhoxtTx6qhSCoy189TlrIcahpnhLwIUK1aL6YuB7x7r/gnFerUZ1VqK3vl9yKNBD3NuSvUK1oaWcSg1ytGG45zxEHN83wBN6kQv+iY3q4TcCI1JcmeAqqJQA2c77UaWSRvQxGoDBEsa4nO4l6O6+aorDm1OOPQBKSfIN1Z38qMBYFIMVdr1EO/ZCcB1wNAXefFExhHEXVMiKRAigB2FGKXkxsV6DQBtx31NwlEhKi3hiMFozGOHXV+GjnMn1O4Z5TQkgoRIvOG6IELPc9GqfnlI0kowfJTTmVbtiPZMAe/axEvyLV4MuQZZ1EzgYiX1gAm2VCEYV+v0+2u6YTmCBye7vYbu2ahwDyzV15WxHadRiWl6SLTm1b/AHEo/TO/BpP5AAAAAElFTkSuQmCC" style="width:1em;height:1em;"/>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__python">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5' ></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3' ></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript' ></i>
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Bella</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/bella-ryan-845b71192/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Bella-Ryan-980" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                    <a href="#https://twitter.com/bella_ryan_980" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
