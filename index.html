@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         <!-- Boxicon - 'High Quality Web Icons Set' <https://boxicons.com/> -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -175,7 +176,10 @@
                         <input type="text" placeholder="Name" id="name" name="name" class="contact__input">
                         <input type="mail" placeholder="Email" id="email" name="email" class="contact__input">
                         <textarea id="message" name="Message" cols="0" rows="10" class="contact__input"></textarea>
-                        <button type="submit" class="contact__button button">Send</button>
+                        <div class="submissions">
+                            <div class="g-recaptcha" data-sitekey="6Lf8ruEZAAAAAKhNnwIDfzd17C1TkXxpAoMdDZ45"></div>
+                            <button type="submit" class="contact__button button">Send</button>
+                        </div>
                     </form>
                 </div>
             </section>

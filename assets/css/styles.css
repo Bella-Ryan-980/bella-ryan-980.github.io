@@ -390,14 +390,29 @@ img{
   margin-bottom: var(--mb-4);
 }
 
-.contact__button{
+.submissions {
+    display: flex;
+    justify-content: center;
+}
+.submissions > .contact__button{
   display: block;
   border: none;
+  margin: 10px 0;
+  padding: 12 40;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
 }
+
+.g-recaptcha {
+  transform:scale(0.77);
+  -webkit-transform:scale(0.77);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  border: 10px;
+  }
+
 
 
 /* Footer */
@@ -511,3 +526,12 @@ img{
     right: 10%;
   }
 }
+
+@media screen and (max-width: 575px){ 
+  .g-recaptcha {
+  transform:scale(0.77);
+  -webkit-transform:scale(0.77);
+  transform-origin:0 0;
+  -webkit-transform-origin:0 0;
+  } 
+  } 
